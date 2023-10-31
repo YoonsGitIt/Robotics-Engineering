@@ -17,5 +17,8 @@ include_directories(
         ${EIGEN3_INCLUDE_DIRS}
         ${visualizer_SOURCE_DIR}/include
         ${robot_simulation_SOURCE_DIR}/include
+)
+
+add_executable(robotic-engineering robot_demo/RobotMain.cpp
 
 )

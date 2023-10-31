@@ -19,8 +19,6 @@ private:
     uint64_t mGaitPeriod;
     uint64_t mIteration;
 
-    MPCController MPC;
-    OffsetGait stand, trot;
 };
 
 #endif //RAISIM_SIMULCONTROLPANELHIGH_HPP
